@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+	.survey-query-container {
+		min-width: 90%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.survey-query-container {
+		min-width: 90%;
+	}
+}
+
+.survey-query-container{
+	max-width: 60%;
+}
+
+.survey-title{
+	font-size: 45px;
+	border-bottom: solid 3px rgb(253, 149, 123);
+	margin-bottom: 0.5rem;
+
+}
+
+.survey-query-title{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.option-bar{
+	padding: 2px 0;
+	font-size: 16px;
+}
+.option-bar:hover{
+	background-color: rgba(131, 131, 131, 0.062);
+}
+.percentage-bar{
+	border: solid 2px rgb(15, 147, 255);
+
+}
+
+.percentage{
+	float:right;
+}
+

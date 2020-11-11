@@ -1,0 +1,37 @@
+.response-container{
+	width: 95%;
+	margin: 1.5rem auto;
+	padding: 0.5rem;
+	background-color: rgba(240, 240, 240, 0.349);
+	border: solid 1px rgba(0, 0, 0, 0.301);
+}
+
+.response-title{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.response-option{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-top: 0.5rem;
+	/* border-top: solid 1px rgb(253, 149, 123); */
+}
+.response-radio{
+	margin-right: 1rem;
+	display: inline-block;
+	align-self: center;
+}
+
+.response-label{
+	font-size: 16px;
+	display: inline-block;
+	word-wrap: break-word;
+}
+
+.tool-bar{
+	border: none;
+	background: none;
+}

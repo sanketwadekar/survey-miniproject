@@ -1,0 +1,64 @@
+@media only screen and (max-width: 768px) {
+	.auth-container {
+		min-width: 60%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.auth-container {
+		min-width: 90%;
+	}
+}
+
+.auth-container {
+	border: solid 2px rgb(114, 89, 255);
+	margin: auto;
+	width: 30%;
+	text-align: center;
+	padding: 1rem 3rem;
+	background-color: white;
+}
+
+.auth-container:focus-within {
+	box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: 0.2s;
+}
+
+.auth-container input {
+	margin: 0.25rem 0;
+	width: 100%;
+	line-height: 2rem;
+	font-size: 18px;
+	outline-style: none;
+	border: solid 2px rgba(255, 255, 255, 0);
+	border-bottom-color: rgb(59, 59, 59);
+	background-color: rgb(255, 255, 255);
+}
+
+.auth-container input:focus {
+	border-bottom-color: rgb(114, 89, 255);
+}
+
+.auth-container button {
+	padding: 0.5rem;
+	width: 100%;
+	margin-top: 1rem;
+	border: none;
+	background-color: rgb(114, 89, 255);
+	font-size: 1.1rem;
+	color: white;
+	cursor: pointer;
+}
+
+.auth-container a {
+	color: black;
+}
+.auth-container a:hover {
+	color: rgb(114, 89, 255);
+}
+
+.auth-header {
+	font-size: 1.5rem;
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+}

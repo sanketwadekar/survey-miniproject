@@ -1,0 +1,133 @@
+@media only screen and (max-width: 768px) {
+	.survey-tile {
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.survey-tile {
+		margin: 0;
+	}
+}
+
+.survey-tile {
+	border: solid 1px rgb(114, 89, 255);
+	margin: 1.5rem 0;
+	padding: 1rem 1rem;
+	box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.171);
+	background-color: white	;
+}
+
+.survey-tile-header {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+
+.fa-trash {
+	color: rgb(136, 136, 136);
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.fa-trash:hover {
+	color: rgb(255, 70, 70);
+}
+
+.survey-container {
+	width: 80%;
+	margin: 1rem auto;
+	padding: 1rem;
+	box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.171);
+	border: solid 1px rgb(114, 89, 255);
+	word-wrap: break-word;
+	background-color: rgb(255, 255, 255);
+}
+
+.survey-label {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.survey-label:focus-within {
+	color: rgb(96, 68, 255);
+	transition-duration: 0.2s;
+}
+
+.survey-title-input {
+	margin-top: 0.5rem;
+	display: inline-block;
+	outline: none;
+	border: solid 2px rgb(0, 0, 0, 0);
+	border-bottom-color: rgb(139, 139, 139);
+	width: 100%;
+	font-size: 18px;
+}
+
+.survey-title-input:focus {
+	border-bottom-color: rgb(114, 89, 255);
+}
+
+.survey-bar {
+	width: fit-content;
+	margin: auto;
+	text-align: center;
+}
+
+.survey-bar-item button {
+	display: inline-block;
+	background-color: rgb(114, 89, 255);
+	padding: 0.5rem;
+	border: none;
+	color: white;
+	font-size: 18px;
+}
+
+.fa-plus {
+	font-size: 40px;
+	color: rgb(114, 89, 255);
+	border-radius: 50%;
+	position: fixed;
+	padding: 0.5rem;
+	right: 1.5em;
+	bottom: 2em;
+	z-index: 999;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}
+
+.fa-plus-circle:hover {
+	color: rgb(236, 0, 236);
+}
+
+
+.query-bar{
+	display: inline-block;
+}
+
+
+.option{
+	margin:0.5rem 0;
+	margin-left: 3rem;
+}
+
+.option input{
+	outline: none;
+	border: solid 2px rgb(0, 0, 0, 0);
+	border-bottom-color: rgb(139, 139, 139);
+	font-size: 16px;
+	margin: auto;
+	width: 80%;
+}
+.option input:focus{
+	border-bottom-color: rgb(253, 149, 123);
+}
+.option-label{
+	width: 10%;
+	padding: 0.5rem;
+}
+
+.option i {
+	float: right;
+	padding: 0 0.5rem;
+}

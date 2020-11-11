@@ -1,0 +1,19 @@
+.list-container{
+	margin: 1rem auto;
+	max-width: 90%;
+	padding: 1rem 2rem;
+	border: solid 1px rgb(114, 89, 255);
+	background-color: white;
+}
+
+.list-container-header{
+	font-size: 3rem;
+	font-weight: 700;
+	color: rgb(114, 89, 255);
+	border-bottom: 3px solid rgb(253, 149, 123);
+}
+.username{
+	font-weight: 600;
+	font-size: 40px;
+	border-color: rgb(255, 255, 255);
+}
